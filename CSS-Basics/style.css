@@ -16,6 +16,14 @@ h1 {
 
 h3 {
     color: darkmagenta;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.8em;
 }
 
 /* div{
@@ -53,4 +61,113 @@ p{
     /* margin: 5px 10px 5px 10px; */
 
     margin: 5px 10px;
+}
+
+.categories{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories a:hover{
+    color: red;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px dotted gray;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form .input-type{
+    width: 100%;
+    padding: 8px;
+}
+
+.button{
+    padding: 10px 15px;
+    border: none;
+    background-color: darkmagenta;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.block{
+    float: left;
+    width: 33.33%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#main__block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#side__bar{
+    float: right;
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.position-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.position-box h1{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+}
+
+.position-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 200px;
+}
+
+.fixed-button{
+    position: fixed;
+    top: 20px;
 }
